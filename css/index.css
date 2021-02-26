@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,a{
+    font-family: 'Akaya Kanadaka', sans-serif ;
+    font-size: 1em;
+}
+
+
+/* Cabeçalho do site */
+
+.cabecalho_principal{
+    background: #885644;
+    width: 100%;
+}
+
+.cabecalho_linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cabecalho_coluna1 {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.cabecalho_coluna2 {
+    width: 60%;
+    padding: 0 15px;
+}
+
+.cabecalho_logo{
+    width: 200x;
+    height: 200px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.cabecalho_navegacao{
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.cabecalho_navegacao li {
+    display: inline;
+}
+
+.cabecalho_navegacao a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: white;
+    padding: 20px;
+}
+
+.cabecalho_navegacao a:hover {
+    text-transform: uppercase;
+    transition: 2s; 
+    text-decoration: underline;
+}
+
+/* parte principal do site */
+
+.conteudo_principal {
+  clear: both;
+  margin-top: 20px;
+}
+
+/* Rodapé do site */
+
+.rodape_principal{
+    background: #885644;
+    font-size: 1.8em;
+}
+
+
+.rodape_coluna1 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.rodape_coluna2 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.rodape_linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.rodape_coluna2 i{
+    margin-top: 10px;
+}
+
+.rodape_coluna2 a{
+    color: white;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.rodape_coluna2 a:hover {
+    color: #885644;
+    background-color: #ffffff;
+}
+
+.rodape_coluna1 p{
+    font-family: 'Akaya Kanadaka', sans-serif ;
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* conteudo contato */
+

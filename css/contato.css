@@ -1,0 +1,61 @@
+body{
+    font-family: 'Akaya Kanadaka', sans-serif ;
+}
+
+section{
+    width: 100%;
+    background: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #885644;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.formulario_grupo{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #885644;
+}
+
+
+.formulario_grupo input, .formulario_grupo textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #885644;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: #885644;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover{
+    color: white;
+    background-color: #885644;
+}
+
