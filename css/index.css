@@ -43,7 +43,7 @@ h1,h2,h3,a{
 .cabecalho_navegacao{
     float: right;
     margin-top: 70px;
-    margin-right: 100px;
+    margin-right: 5px;
 }
 
 .cabecalho_navegacao li {
@@ -58,7 +58,6 @@ h1,h2,h3,a{
 }
 
 .cabecalho_navegacao a:hover {
-    text-transform: uppercase;
     transition: 2s; 
     text-decoration: underline;
 }
@@ -123,5 +122,23 @@ h1,h2,h3,a{
 }
 
 
-/* conteudo contato */
+/* Media queries */
+
+@media (max-width: 530px){
+    .rodape_coluna1 {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    .rodape_coluna2{
+        width: auto;
+        margin: 10px 0 0 110px;
+    }
+
+    .rodape_coluna2 a{
+        align-items: center;
+    }
+
+}
 

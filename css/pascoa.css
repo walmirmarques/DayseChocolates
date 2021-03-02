@@ -1,0 +1,58 @@
+tr,
+th,
+td {
+    padding: 2px;
+}
+
+table {
+    border: 1px solid #885644;
+    margin: 40px 0 40px 0;
+}
+
+.conteudo_principal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: 1.8em;
+}
+
+thead th {
+    background: #885644;
+    color: white;
+    padding: 20px;
+    width: 50%;
+}
+
+.descricao {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.botao_download {
+    margin-bottom: 40px;
+}
+
+.botao_download button {
+    margin: 0 auto;
+    padding: 20px;
+    background: #885644;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    margin: 0 auto;
+    display: block;
+}
+
+.botao_download button:hover {
+    transition: 1s;
+    background: #be826c;
+    cursor: pointer;
+}
