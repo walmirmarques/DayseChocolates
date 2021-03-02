@@ -1,8 +1,8 @@
-body{
-    font-family: 'Akaya Kanadaka', sans-serif ;
+body {
+    font-family: 'Akaya Kanadaka', sans-serif;
 }
 
-section{
+section {
     width: 100%;
     background: #f0f8ff;
     display: flex;
@@ -12,7 +12,7 @@ section{
 
 .container {
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 30px auto;
     padding: 20px;
     box-shadow: 0px 0px 20px #885644;
@@ -20,7 +20,7 @@ section{
     border-radius: 8px;
 }
 
-.formulario_grupo{
+.formulario_grupo {
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
@@ -28,7 +28,8 @@ section{
 }
 
 
-.formulario_grupo input, .formulario_grupo textarea{
+.formulario_grupo input,
+.formulario_grupo textarea {
     width: 100%;
     padding: 5px;
     font-size: 18px;
@@ -40,7 +41,7 @@ textarea {
     resize: vertical;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     width: 100%;
     border: none;
     outline: none;
@@ -54,8 +55,7 @@ button[type="submit"]{
     transition: .3s ease background-color;
 }
 
-button[type="submit"]:hover{
+button[type="submit"]:hover {
     color: white;
     background-color: #885644;
 }
-
